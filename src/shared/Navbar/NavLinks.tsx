@@ -11,17 +11,17 @@ export const NavLinksStyles = ({ isActive, isPending }: TStatus) =>
 const NavLinks = () => {
   return (
     <>
-      <li className="hover:font-bold text-[#3A643B]">
+      <li className="hover:font-bold text-skin-primary">
         <NavLink to="/" className={NavLinksStyles}>
           Home
         </NavLink>
       </li>
-      <li className="hover:font-bold text-[#3A643B]">
+      <li className="hover:font-bold text-skin-primary">
         <NavLink to="/find-doctors" className={NavLinksStyles}>
           Find Doctors
         </NavLink>
       </li>
-      <li className="hover:font-bold text-[#3A643B]">
+      <li className="hover:font-bold text-skin-primary">
         <NavLink to="/about-us" className={NavLinksStyles}>
           About Us
         </NavLink>

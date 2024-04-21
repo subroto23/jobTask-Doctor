@@ -6,7 +6,7 @@ import NavLinks, { NavLinksStyles } from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <div className=" bg-[#FFF7E2] text-[#474747] min-h-[94px]">
+    <div className=" bg-skin-navbar text-skin-primary min-h-[94px]">
       <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start ">
           <div className="dropdown">
@@ -16,7 +16,7 @@ const Navbar = () => {
             {/*For Small Device */}
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-44"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-skin-navbar rounded-box w-44"
             >
               <NavLinks />
               <li>

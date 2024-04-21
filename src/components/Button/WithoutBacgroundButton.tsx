@@ -1,8 +1,15 @@
-const WithoutBacgroundButton = ({ props }: Record<string, string>) => {
+import { ReactNode } from "react";
+
+const WithoutBacgroundButton = ({
+  props,
+  icon,
+}: Record<string, string | ReactNode>) => {
   return (
     <>
-      <button className="border border-[#3A643B] rounded-xl md:p-[16px_39px_20px_39px] p-2  text-xl text-[#3A643B]">
-        {props}
+      <button className="border border-skin-border-primary rounded-xl md:p-[14px_30px_12px_39px] p-2 text-xl text-skin-primary">
+        <span className="flex items-center gap-2">
+          {props} {icon ? icon : null}
+        </span>
       </button>
     </>
   );

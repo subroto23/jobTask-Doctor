@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --color-bg-navbar: 255, 248, 229;
+    --color-bg-banner: 255, 251, 242;
+    --color-bg-fill-button-green: 51, 170, 102;
+    --color-bg-section-gredient-form: 247, 248, 242;
+    --color-bg-section-gredient-via: 250, 251, 246;
+    --color-bg-section-gredient-to: 253, 253, 253;
+    --color-bg-icon-card: 206, 231, 225;
+    --color-bg-specialiest-btn: 245, 244, 250;
+    --color-text-primary: 53, 103, 66;
+    --color-text-secondary: 14, 14, 14;
+    --color-text-muted: 151, 150, 158;
+    --color-text-icon-specialist: 255, 250, 246;
+    --color-text-icon: 63, 97, 62;
+    --color-text-strong: 76, 76, 76;
+    --color-border-primary: 58, 100, 59;
+    --color-icon-star: 246, 151, 33, 1;
+    --color-danger: 244, 86, 83;
+    --color-info: 217, 186, 59;
+  }
+}
