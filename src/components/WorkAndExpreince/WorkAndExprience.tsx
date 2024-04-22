@@ -15,7 +15,9 @@ const WorkAndExprience = () => {
           </span>
         </div>
         <div className="col-span-3">
-          <h1 className="text-skin-secoundry mb-3">{title}</h1>
+          <h1 className="text-skin-secoundry text-lg font-semibold mb-3">
+            {title}
+          </h1>
           <span className="text-skin-muted">{degistation}</span>
         </div>
         <div className="self-start">
