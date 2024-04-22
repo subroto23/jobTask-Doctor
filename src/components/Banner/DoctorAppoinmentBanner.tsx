@@ -1,7 +1,7 @@
 import coverImage from "../../assets/images/bannerBackground.png";
 import doctorImage from "../../assets/images/doctor.png";
 import { MdVerified } from "react-icons/md";
-import Button from "../Button/Button";
+import Button from "../../utlis/Button/Button";
 import RatingStart from "../Rating/RatingStart";
 const DoctorAppoinmentBanner = () => {
   return (

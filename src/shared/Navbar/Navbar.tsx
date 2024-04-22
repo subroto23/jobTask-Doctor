@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaAlignJustify } from "react-icons/fa";
-import Button from "../../components/Button/Button";
-import WithoutBacgroundButton from "../../components/Button/WithoutBacgroundButton";
+import Button from "../../utlis/Button/Button";
+import WithoutBacgroundButton from "../../utlis/Button/WithoutBacgroundButton";
 import NavLinks, { NavLinksStyles } from "./NavLinks";
 
 const Navbar = () => {

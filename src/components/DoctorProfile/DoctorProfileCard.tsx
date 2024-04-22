@@ -1,8 +1,8 @@
-import WithoutBacgroundButton from "../Button/WithoutBacgroundButton";
+import WithoutBacgroundButton from "../../utlis/Button/WithoutBacgroundButton";
 import SocialShare from "../SocialShare/SocialShare";
 import { FaPlus } from "react-icons/fa6";
 
-const TitleBasedCard = () => {
+const DoctorProfileCard = () => {
   return (
     <div className="border border-[#DCDCDC] rounded-[15px_18px] text-skin-secoundry pb-4">
       <div className="rounded-[15px_18px_0px_0px] bg-gradient-to-tr from-skin-gradent-start via-skin-gradent-center to-skin-gradent-end py-2 px-4 font-semibold flex justify-between items-center">
@@ -46,4 +46,4 @@ const TitleBasedCard = () => {
   );
 };
 
-export default TitleBasedCard;
+export default DoctorProfileCard;
