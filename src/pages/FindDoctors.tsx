@@ -1,6 +1,8 @@
 import DoctorAppoinmentBanner from "../components/Banner/DoctorAppoinmentBanner";
+import ConcernsTreat from "../components/ConcernsTreat/ConcernsTreat";
 import DoctorProfileCard from "../components/DoctorProfile/DoctorProfileCard";
 import SpecializeSection from "../components/SpecializeSection/SpecializeSection";
+import WorkAndExprience from "../components/WorkAndExpreince/WorkAndExprience";
 
 const FindDoctors = () => {
   return (
@@ -10,6 +12,8 @@ const FindDoctors = () => {
         <div>
           <DoctorProfileCard />
           <SpecializeSection />
+          <ConcernsTreat />
+          <WorkAndExprience />
         </div>
       </div>
     </>

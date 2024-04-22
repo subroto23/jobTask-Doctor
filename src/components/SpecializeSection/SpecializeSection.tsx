@@ -7,8 +7,8 @@ import HairCare from "../../assets/images/HairCare.jpg";
 const SpecializeSection = () => {
   return (
     <TitleBasedSection title={"I Specialize In"}>
-      <div className="p-4 my-4 flex gap-2">
-        <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
+      <div className="flex flex-wrap gap-1">
+        <div className="border-skin-border-primary p-2 flex flex-col justify-center">
           <img src={womenHealth} className="w-32 h-32" />
           <p className="text-center text-skin-primary py-2">women’s health</p>
         </div>
