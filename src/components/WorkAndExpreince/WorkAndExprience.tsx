@@ -11,7 +11,7 @@ const WorkAndExprience = () => {
       <>
         <div className=" bg-skin-icon-card h-20 w-20 rounded-md flex justify-center items-center">
           <span>
-            <MdOutlineHomeWork className="text-[2E37A4] text-5xl" />
+            <MdOutlineHomeWork className="text-[#2E37A4] text-5xl" />
           </span>
         </div>
         <div className="col-span-3">

@@ -5,7 +5,7 @@ import Button from "../../utlis/Button/Button";
 import RatingStart from "../Rating/RatingStart";
 const DoctorAppoinmentBanner = () => {
   return (
-    <div className="bg-skin-banner md:mt-16 mb-8 mt-8 dark:bg-gray-800">
+    <div className="bg-skin-banner md:mt-10 mb-8 mt-8 dark:bg-gray-800">
       <div className="bg-skin-banner shadow-lg transform duration-200 easy-in-out relative">
         <div className=" h-32 overflow-hidden">
           <img className="w-full" src={coverImage} alt="Cover Image" />
@@ -32,7 +32,6 @@ const DoctorAppoinmentBanner = () => {
               4.2 <RatingStart props={4} />
             </p>
           </div>
-
           {/* Social Media Status */}
           <div className="grid md:grid-cols-3 grid-cols-1 md:-ml-32 md:gap-1 gap-5">
             <div className="text-center cursor-pointer flex flex-col items-center">
