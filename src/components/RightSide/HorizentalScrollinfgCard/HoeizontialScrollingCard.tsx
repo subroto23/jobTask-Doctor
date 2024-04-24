@@ -21,8 +21,8 @@ const HoeizontialScrollingCard = () => {
           } border-skin-border-secoundry border rounded-[19px]`}
           onClick={() => handleButtonClick(`button${btnNumber}`)}
         >
-          <div className="cursor-pointer border-skin-border-secoundry px-6 py-4">
-            <h1 className="text-skin-secoundry  text-center flex gap-1 justify-center items-center">
+          <div className="cursor-pointer border-skin-border-secoundry px-2 py-4">
+            <h1 className="text-skin-secoundry text-sm text-center flex gap-1 justify-center items-center">
               {title}
             </h1>
             <p

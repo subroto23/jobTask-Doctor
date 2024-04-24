@@ -7,7 +7,7 @@ import NavLinks, { NavLinksStyles } from "./NavLinks";
 const Navbar = () => {
   return (
     <div className=" bg-skin-navbar text-skin-primary min-h-[94px]">
-      <div className="navbar max-w-7xl mx-auto">
+      <div className="navbar container mx-auto">
         <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Companey Logo */}
           <Link
             to="/"
-            className="text-xl font-semibold uppercase tracking-[8px] md:ml-0 ml-2"
+            className="text-sm font-semibold uppercase tracking-[8px] md:ml-0 ml-2"
           >
             AMRUTAM
           </Link>

@@ -5,13 +5,13 @@ const PickTimeSlot = () => {
   return (
     <div>
       <div className="mt-8 flex items-center gap-4">
-        <h1 className="text-lg text-skin-secoundry font-semibold">
+        <h1 className="text-sm text-skin-secoundry font-semibold">
           Select your mode of session
         </h1>
-        <hr className="border-2 border-[#E8E8E8] w-[40%]" />
+        <hr className="border-2 border-[#E8E8E8]  w-[30%]" />
         <div className="border-2 border-skin-border-secoundry rounded-full w-12 h-12 flex items-center justify-center">
           <span>
-            <MdOutlineCalendarToday className="text-lg" />
+            <MdOutlineCalendarToday className="text-sm" />
           </span>
         </div>
         {/* Carosol Button */}

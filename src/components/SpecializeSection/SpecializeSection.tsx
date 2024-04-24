@@ -9,20 +9,20 @@ const SpecializeSection = () => {
     <TitleBasedSection title={"I Specialize In"}>
       <div className="flex flex-wrap gap-1">
         <div className="border-skin-border-primary p-2 flex flex-col justify-center">
-          <img src={womenHealth} className="w-32 h-32" />
-          <p className="text-center text-skin-primary py-2">women’s health</p>
+          <img src={womenHealth} className="w-24 h-24" />
+          <p className="text-center text-skin-primary py-2">health</p>
         </div>
 
-        <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
-          <img src={skinCare} className="w-32 h-32" />
+        <div className="border-skin-border-primary p-2 flex flex-col justify-center">
+          <img src={skinCare} className="w-24 h-24" />
           <p className="text-center text-skin-primary py-2">Skin Care</p>
         </div>
         <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
-          <img src={Immunity} className="w-32 h-32" />
+          <img src={Immunity} className="w-24 h-24" />
           <p className="text-center text-skin-primary py-2">Immunity</p>
         </div>
         <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
-          <img src={HairCare} className="w-32 h-32 rounded-xl" />
+          <img src={HairCare} className="w-24 h-24" />
           <p className="text-center text-skin-primary py-2">Hair care</p>
         </div>
       </div>

@@ -26,7 +26,7 @@ const FindDoctors = () => {
           onClick={() => handleButtonClick(`button${btnNumber}`)}
         >
           <h1
-            className={`text-skin-primary text-lg text-center ${
+            className={`text-skin-primary text-sm text-center ${
               selectedButton === `button${btnNumber}`
                 ? "text-white bg-skin-button-green border-[#3A643B] "
                 : ""
@@ -53,15 +53,15 @@ const FindDoctors = () => {
         <div>
           <div className=" border-skin-border-secoundry border p-6 rounded-[19px]">
             <div className="flex items-center justify-between border-skin-border-secoundry border p-6 rounded-[19px]">
-              <h1 className="text-xl text-skin-secoundry font-semibold">
+              <h1 className="text-sm text-skin-secoundry font-semibold">
                 Appointment Fee
               </h1>
-              <span className="text-skin-primary text-xl font-semibold">
+              <span className="text-skin-primary text-sm font-semibold">
                 ₹699.00
               </span>
             </div>
             <div className="mt-8 flex items-center gap-4">
-              <h1 className="text-lg text-skin-secoundry font-semibold">
+              <h1 className="text-sm text-skin-secoundry font-semibold">
                 Select your mode of session
               </h1>
               <hr className="border-2 border-[#E8E8E8] w-[30%]" />
@@ -70,7 +70,7 @@ const FindDoctors = () => {
             <ModeSessionButton />
             <PickTimeSlot />
             <div className="mt-8">
-              <h1 className="text-xl text-skin-secoundry font-semibold mb-4">
+              <h1 className="text-sm text-skin-secoundry font-semibold mb-4">
                 Morning
               </h1>
               <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const FindDoctors = () => {
               </div>
             </div>
             <div className="mt-8">
-              <h1 className="text-xl text-skin-secoundry font-semibold mb-4">
+              <h1 className="text-sm text-skin-secoundry font-semibold mb-4">
                 Evening
               </h1>
               <div className="grid md:grid-cols-4 grid-cols-2 gap-4">

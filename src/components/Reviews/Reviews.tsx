@@ -14,8 +14,8 @@ const Reviews = () => {
                 className="w-16 h-16 rounded-full object-cover saturate-200 border"
               />
             </div>
-            <div className="space-y-4 col-span-3">
-              <h1 className="text-skin-secoundry text-lg font-semibold">
+            <div className="space-y-4 col-span-3 pl-3">
+              <h1 className="text-skin-secoundry text-sm font-semibold">
                 Alicent Hightower
               </h1>
               <span className="text-skin-muted mt-3 text-sm">
@@ -23,7 +23,7 @@ const Reviews = () => {
               </span>
             </div>
             <div className="col-span-2 justify-self-end">
-              <span className="text-skin-muted">20 January 2023</span>
+              <span className="text-skin-muted text-sm">20 January 2023</span>
             </div>
           </div>
           <div className="flex mt-6">

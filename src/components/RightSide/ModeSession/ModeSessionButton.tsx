@@ -24,11 +24,11 @@ export const ModeSessionButton = () => {
           onClick={() => handleButtonClick(`button${btnNumber}`)}
         >
           <div className="cursor-pointer border-skin-border-secoundry px-6 py-4">
-            <h1 className="text-skin-secoundry text-lg text-center font-semibold flex gap-1 justify-center items-center">
+            <h1 className="text-skin-secoundry text-sm text-center font-semibold flex gap-1 justify-center items-center">
               {title}
               {selectedButton === `button${btnNumber}` && (
                 <span>
-                  <MdVerified className="text-skin-secoundry text-lg" />
+                  <MdVerified className="text-skin-secoundry text-sm" />
                 </span>
               )}
             </h1>

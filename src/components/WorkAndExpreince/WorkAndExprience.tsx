@@ -15,13 +15,13 @@ const WorkAndExprience = () => {
           </span>
         </div>
         <div className="col-span-3">
-          <h1 className="text-skin-secoundry text-lg font-semibold mb-3">
+          <h1 className="text-skin-secoundry text-sm font-semibold mb-3">
             {title}
           </h1>
           <span className="text-skin-muted">{degistation}</span>
         </div>
         <div className="self-start">
-          <span className="text-skin-muted">{joiningDate}</span>
+          <span className="text-skin-muted text-sm">{joiningDate}</span>
         </div>
       </>
     );
@@ -29,12 +29,12 @@ const WorkAndExprience = () => {
   return (
     <TitleBasedSection title={"My Work Experience"}>
       <div className="space-y-10 mb-8">
-        <h1 className="text-skin-primary text-2xl font-semibold">
+        <h1 className="text-skin-primary text-sm font-semibold">
           I have been in practice for : 7+ Years
         </h1>
         <hr className="w-[80%] border-skin-border-primary" />
       </div>
-      <div className="grid md:grid-cols-5 gap-y-12">
+      <div className="grid md:grid-cols-5 grid-cols-1 gap-y-12">
         {exprienceInfoCreating(
           "Midtown Medical Clinic",
           "Senior doctor",
