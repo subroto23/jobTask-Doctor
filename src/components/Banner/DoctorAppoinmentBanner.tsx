@@ -18,7 +18,7 @@ const DoctorAppoinmentBanner = () => {
               src={doctorImage}
               alt="Doctor Image"
             />
-          </div>
+          </div>          
           {/* Doctor Details */}
           <div className="md:justify-self-start justify-self-center">
             <h2 className="text-skin-secoundry text-xl font-bold flex gap-2 items-center">
