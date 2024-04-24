@@ -7,23 +7,27 @@ import HairCare from "../../assets/images/HairCare.jpg";
 const SpecializeSection = () => {
   return (
     <TitleBasedSection title={"I Specialize In"}>
-      <div className="flex flex-wrap gap-1">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-1">
         <div className="border-skin-border-primary p-2 flex flex-col justify-center">
           <img src={womenHealth} className="w-24 h-24" />
-          <p className="text-center text-skin-primary py-2">health</p>
+          <p className="text-center text-skin-primary py-2 text-sm">Health</p>
         </div>
 
         <div className="border-skin-border-primary p-2 flex flex-col justify-center">
           <img src={skinCare} className="w-24 h-24" />
-          <p className="text-center text-skin-primary py-2">Skin Care</p>
+          <p className="text-center text-skin-primary py-2 text-sm">
+            Skin Care
+          </p>
         </div>
         <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
           <img src={Immunity} className="w-24 h-24" />
-          <p className="text-center text-skin-primary py-2">Immunity</p>
+          <p className="text-center text-skin-primary py-2 text-sm">Immunity</p>
         </div>
         <div className=" border-skin-border-primary p-2 flex flex-col justify-center">
           <img src={HairCare} className="w-24 h-24" />
-          <p className="text-center text-skin-primary py-2">Hair care</p>
+          <p className="text-center text-skin-primary py-2 text-sm">
+            Hair care
+          </p>
         </div>
       </div>
     </TitleBasedSection>

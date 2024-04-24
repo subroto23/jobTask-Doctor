@@ -5,9 +5,9 @@ import { FaPlus } from "react-icons/fa6";
 const DoctorProfileCard = () => {
   return (
     <div className="border border-[#DCDCDC] rounded-[15px_18px] text-skin-secoundry pb-4">
-      <div className="rounded-[15px_18px_0px_0px] bg-gradient-to-tr from-skin-gradent-start via-skin-gradent-center to-skin-gradent-end py-6 px-4 font-semibold flex justify-between items-center">
+      <div className="rounded-[15px_18px_0px_0px] bg-gradient-to-tr from-skin-gradent-start via-skin-gradent-center to-skin-gradent-end md:py-6 py-3 px-4 font-semibold flex md:justify-between justify-center items-center flex-wrap gap-3">
         <span className="text-sm tracking-wider text-skin-primary">
-          A Little About me{" "}
+          A Little About me
         </span>
         <WithoutBacgroundButton
           props={"Follow"}
@@ -21,7 +21,7 @@ const DoctorProfileCard = () => {
           Completed my graduation in Gynaecologist Medicine from the
         </p>
         <div className="flex justify-center items-center gap-2 py-2">
-          <hr className="w-[70%] border border-[#797979]" />
+          <hr className="md:w-[70%] w-[40%] border border-[#797979]" />
           <button className="font-semibold text-skin-strong-text underline">
             Read More
           </button>

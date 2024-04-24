@@ -4,12 +4,12 @@ import HoeizontialScrollingCard from "../HorizentalScrollinfgCard/HoeizontialScr
 const PickTimeSlot = () => {
   return (
     <div>
-      <div className="mt-8 flex items-center gap-4">
-        <h1 className="text-sm text-skin-secoundry font-semibold">
-          Select your mode of session
+      <div className="mt-8 flex items-center justify-center md:justify-start gap-4">
+        <h1 className="text-sm text-skin-secoundry font-semibold text-center md:text-start">
+          Pick a Time slot
         </h1>
-        <hr className="border-2 border-[#E8E8E8]  w-[30%]" />
-        <div className="border-2 border-skin-border-secoundry rounded-full w-12 h-12 flex items-center justify-center">
+        <hr className="border-2 border-[#E8E8E8]  w-[55%] md:block hidden" />
+        <div className=" hidden border-2 border-skin-border-secoundry rounded-full w-12 h-12 md:flex items-center justify-center">
           <span>
             <MdOutlineCalendarToday className="text-sm" />
           </span>

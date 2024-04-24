@@ -5,14 +5,14 @@ import Button from "../../utlis/Button/Button";
 import RatingStart from "../Rating/RatingStart";
 const DoctorAppoinmentBanner = () => {
   return (
-    <div className="bg-skin-banner md:mt-10 mb-8 mt-8 dark:bg-gray-800">
+    <div className="bg-skin-banner md:mt-10 mb-8 mt-2 dark:bg-gray-800">
       <div className="bg-skin-banner shadow-lg transform duration-200 easy-in-out relative">
         <div className="h-32 overflow-hidden">
           <img className="w-full" src={coverImage} alt="Cover Image" />
         </div>
         <div className="py-4 grid md:grid-cols-8 grid-cols-1 items-center gap-4 md:pl-4">
           {/* Profile Image */}
-          <div className="justify-self-center -mt-12 col-span-1">
+          <div className="justify-self-center -mt-12 md:col-span-1 col-span-2">
             <img
               className="h-32 w-32 bg-white rounded-full border-[10px] border-white"
               src={doctorImage}
@@ -20,7 +20,7 @@ const DoctorAppoinmentBanner = () => {
             />
           </div>
           {/* Doctor Details */}
-          <div className="md:justify-self-start justify-self-center col-span-2">
+          <div className="md:justify-self-start justify-self-center col-span-2 md:pl-0 pl-6">
             <h2 className="text-skin-secoundry text-sm font-bold flex gap-2 items-center">
               Dr. Bruce Willis
               <span className="text-blue-500">
@@ -50,7 +50,7 @@ const DoctorAppoinmentBanner = () => {
             </div>
           </div>
 
-          <div className="md:px-0 px-2 col-span-2">
+          <div className="md:px-0 px-2 col-span-2 justify-center flex">
             <Button props="Book an Appointment" />
           </div>
         </div>

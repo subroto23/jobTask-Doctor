@@ -41,7 +41,7 @@ const HoeizontialScrollingCard = () => {
   };
   return (
     <div className="grid md:grid-cols-11 items-center gap-1">
-      <div>
+      <div className="md:block hidden">
         <a href="#slide4" className="btn btn-circle">
           ❮
         </a>
@@ -65,7 +65,7 @@ const HoeizontialScrollingCard = () => {
           "text-skin-danger fonst-bold"
         )}
       </div>
-      <div>
+      <div className="md:block hidden">
         <a href="#slide2" className="btn btn-circle">
           ❯
         </a>
