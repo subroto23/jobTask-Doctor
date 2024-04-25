@@ -45,10 +45,10 @@ export default {
       borderColor: {
         skin: {
           "border-primary": WithOpacity("--color-border-primary"),
-          "border-secoundry":WithOpacity("--color--right-side-border"),
+          "border-secoundry": WithOpacity("--color--right-side-border"),
         },
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require("@tailwindcss/forms")],
 };
