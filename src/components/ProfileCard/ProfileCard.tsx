@@ -2,9 +2,11 @@ import doctorImage from "../../assets/images/doctorImage.jpg";
 import { LuGraduationCap } from "react-icons/lu";
 import { BiMessageAltDetail } from "react-icons/bi";
 import { HiMiniLink } from "react-icons/hi2";
+import WithoutBacgroundButton from "../../utlis/Button/WithoutBacgroundButton";
+import Button from "../../utlis/Button/Button";
 const ProfileCard = () => {
-  return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 my-8">
+  const profileCard = () => {
+    return (
       <div className="bg-[#FFF7E2] border border-[#E3E3E3] shadow-md px-6 py-8">
         <img
           src={doctorImage}
@@ -48,10 +50,21 @@ const ProfileCard = () => {
             <h1 className="text-skin secoundry text-[16px] font-bold">
               Video Consultation
             </h1>
-            <p className="text-skin-primary font-bold text-center">₹800</p>
+            <p className="text-skin-primary font-bold text-center">FREE</p>
           </div>
         </div>
+        <div className="space-y-3">
+          <WithoutBacgroundButton props={"View Profile"} style={"w-full"} />
+          <Button props={"Book a consultation"} style={"w-full text-lg"} />
+        </div>
       </div>
+    );
+  };
+  return (
+    <div className="grid md:grid-cols-3 grid-cols-1 gap-4 my-8">
+      {profileCard()}
+      {profileCard()}
+      {profileCard()}
     </div>
   );
 };
