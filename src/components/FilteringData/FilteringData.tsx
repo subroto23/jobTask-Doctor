@@ -29,7 +29,7 @@ const FilteringData = ({ data }: IFilterValue) => {
 
   return (
     <div className="mt-8">
-      <div className="flex justify-end gap-3">
+      <div className="flex md:flex-row flex-col justify-end gap-3">
         {arrayOfObjects &&
           arrayOfObjects?.map((item: string) => {
             if (hiddenItems && hiddenItems.includes(item)) {

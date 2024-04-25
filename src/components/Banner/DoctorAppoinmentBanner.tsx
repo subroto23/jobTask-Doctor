@@ -5,7 +5,10 @@ import Button from "../../utlis/Button/Button";
 import RatingStart from "../Rating/RatingStart";
 const DoctorAppoinmentBanner = () => {
   return (
-    <div className="bg-skin-banner md:mt-10 mb-8 mt-2 dark:bg-gray-800">
+    <div
+      data-aos="fade-up"
+      className="bg-skin-banner md:mt-10 mb-8 mt-2 dark:bg-gray-800"
+    >
       <div className="bg-skin-banner shadow-lg transform duration-200 easy-in-out relative">
         <div className="h-32 overflow-hidden">
           <img className="w-full" src={coverImage} alt="Cover Image" />
