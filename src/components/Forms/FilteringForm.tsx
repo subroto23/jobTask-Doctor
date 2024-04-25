@@ -15,7 +15,7 @@ const FilteringForm = () => {
 
   return (
     <>
-      <div className="mt-6 flex flex-wrap justify-center items-center gap-4 ">
+      <div className="mt-6 grid md:grid-cols-5 grid-cols-1 justify-center items-center gap-4 md:px-0 px-4">
         <div>
           <select
             onChange={(e) => setExperticeValue(e.target.value)}

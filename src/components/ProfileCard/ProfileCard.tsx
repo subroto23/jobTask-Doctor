@@ -7,18 +7,18 @@ import Button from "../../utlis/Button/Button";
 const ProfileCard = () => {
   const profileCard = () => {
     return (
-      <div className="bg-[#FFF7E2] border border-[#E3E3E3] shadow-md px-6 py-8">
+      <div className="bg-[#FFF7E2] border border-[#E3E3E3] shadow-md px-6 md:py-8 py-4 ">
         <img
           src={doctorImage}
           alt="Doctor Image"
           className="rounded-full mx-auto"
         />
         <div className="my-4">
-          <h1 className="text-skin-secoundry text-3xl font-medium text-center">
+          <h1 className="text-skin-secoundry md:text-3xl font-medium text-center">
             Dr. Prerna Narang
           </h1>
           <div>
-            <div className="flex items-center gap-4 mt-2">
+            <div className="flex items-center gap-4 mt-2 ">
               <span>
                 <HiMiniLink />
               </span>

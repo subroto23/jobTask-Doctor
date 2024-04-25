@@ -2,16 +2,16 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 const HeaderBanner = () => {
   return (
-    <div className="bg-[#EAF2EA] w-full py-16">
+    <div className="bg-[#EAF2EA] w-full md:py-16 py-6">
       <div>
-        <h1 className="text-3xl text-center font-semibold text-skin-secoundry">
+        <h1 className="md:text-3xl text-sm text-center font-semibold text-skin-secoundry">
           Find expert Doctors for an In-clinic session here
         </h1>
       </div>
       {/* Form */}
       <div className="w-3/5 mx-auto px-3 mt-4">
-        <div className="grid md:grid-cols-6 justify-center items-center gap-1">
-          <div className="relative col-span-2">
+        <div className="grid md:grid-cols-6 justify-center items-center md:gap-1 gap-3">
+          <div className="relative md:col-span-2">
             <select className="block appearance-none border border-gray-200 text-gray-700 py-4 pr-8 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-gray-500 pl-8">
               <option>Select Location</option>
               <option>New Mexico</option>
@@ -24,7 +24,7 @@ const HeaderBanner = () => {
               </span>
             </div>
           </div>
-          <div className="relative col-span-4">
+          <div className="relative md:col-span-4">
             <input
               type="text"
               className="block appearance-none border border-gray-200 text-gray-700 py-4 pr-8 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-gray-500 pl-8 w-full"
