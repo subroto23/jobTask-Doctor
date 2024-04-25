@@ -6,7 +6,7 @@ import NavLinks, { NavLinksStyles } from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <div className=" bg-skin-navbar text-skin-primary min-h-[94px]">
+    <div className=" bg-skin-navbar text-skin-primary min-h-[94px] sticky top-0  z-50">
       <div className="navbar container mx-auto">
         <div className="navbar-start ">
           <div className="dropdown">

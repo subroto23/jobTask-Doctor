@@ -4,15 +4,23 @@ import { BiMessageAltDetail } from "react-icons/bi";
 import { HiMiniLink } from "react-icons/hi2";
 import WithoutBacgroundButton from "../../utlis/Button/WithoutBacgroundButton";
 import Button from "../../utlis/Button/Button";
+import RatingStart from "../Rating/RatingStart";
 const ProfileCard = () => {
   const profileCard = () => {
     return (
-      <div className="bg-[#FFF7E2] border border-[#E3E3E3] shadow-md px-6 md:py-8 py-4 ">
-        <img
-          src={doctorImage}
-          alt="Doctor Image"
-          className="rounded-full mx-auto"
-        />
+      <div className="bg-[#FFF7E2] border border-[#E3E3E3] shadow-md px-6 md:py-8 py-4 hover:bg-gray-100">
+        <div className="relative">
+          <img
+            src={doctorImage}
+            alt="Doctor Image"
+            className="rounded-full mx-auto relative"
+          />
+          <div className="bg-black rounded-full px-1 absolute bottom-0 transform -translate-x-1/2 -translate-y-1/5 left-1/2 ">
+            <span className="text-white flex justify-center text-sm gap-2">
+              4.5 <RatingStart props={1} />
+            </span>
+          </div>
+        </div>
         <div className="my-4">
           <h1 className="text-skin-secoundry md:text-3xl font-medium text-center">
             Dr. Prerna Narang

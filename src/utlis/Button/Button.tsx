@@ -7,7 +7,7 @@ const Button = ({ props, style }: IButtonProps) => {
   return (
     <>
       <button
-        className={`bg-skin-button-green rounded-xl md:p-[16px_39px_20px_39px] p-2 text-white text-sm px-3 ${style}`}
+        className={`bg-skin-button-green rounded-xl md:p-[16px_39px_20px_39px] p-2 text-white text-sm px-3 hover:bg-green-600 ${style}`}
       >
         {props}
       </button>

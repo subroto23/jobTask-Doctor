@@ -2,7 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa";
 const HeaderBanner = () => {
   return (
-    <div className="bg-[#EAF2EA] w-full md:py-16 py-6">
+    <div className="bg-[#EAF2EA] w-full md:py-16 py-6 relative">
       <div>
         <h1 className="md:text-3xl text-sm text-center font-semibold text-skin-secoundry">
           Find expert Doctors for an In-clinic session here
